@@ -1,5 +1,7 @@
 public class InsertionSort implements SortingAlgorithm{
 
+    private double[] arr = new double[];
+
     void insertionSort(double[] arr){
         for(int i = 1; i < arr.length - 1; i++){
             double temp = arr[i];
@@ -10,5 +12,11 @@ public class InsertionSort implements SortingAlgorithm{
             }
             arr[k+1] = temp;
         }
+    }
+
+
+    @Override
+    public void sort(int[] a) {
+
     }
 }

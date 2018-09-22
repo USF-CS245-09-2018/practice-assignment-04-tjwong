@@ -1,7 +1,28 @@
 public class SelectionSort implements SortingAlgorithm {
 
-    int[] intarr = new int[10];
+    double[] arr = new double[];
 
-    sort(intarr);
+
+    public double[] selectionSort(double[] arr){
+        double[] tempArr = new double[arr.length];
+
+        int count = 0;
+        double min;
+
+        for(int i = 0; i < arr.length - 1; i++){
+            if(arr[i] < min) {
+                min = arr[i];
+            }
+        }
+
+
+
+
+    }
+
+    @Override
+    public void sort(int[] a) {
+
+    }
 
 }

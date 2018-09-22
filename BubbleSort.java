@@ -1,7 +1,7 @@
 public class BubbleSort implements SortingAlgorithm {
 
 
-
+    
     public void swap(int first, int second, double[] arr){
         int tempNum = first;
 
